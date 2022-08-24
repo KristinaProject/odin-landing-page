@@ -1,16 +1,13 @@
 :root {
   /* dark bg (hero, footer */
-  --head-foot-bg: #1F2937;
-  /* info header, quote text */
+  --head-foot-bg: #1F2937; /* info header, quote text */
   /* hero main text */
   --hero-ts: 48px;
   --hero-tw: extraBold;
-  --hero-tc: #F9FAF8;
-  /* header logo text */
+  --hero-tc: #F9FAF8; /* header logo text */
   /* hero secondarytext, header links */
   --text-sec: 18px;
-  --text-color-sec: #E5E7EB;
-  /* quote section bg */
+  --text-color-sec: #E5E7EB;/* header links, quote section bg */
   --text-logo-s: 24px;
   /* btn color, call to action bg */
   --btn-bg: #3882F6;
@@ -19,13 +16,12 @@
   --quote-text: ligthItalic;
   /* text width on page */
   --width-100: 100%;
-  --width: 80%;
+  --width: 1000px;
 }
 
 * {
   box-sizing: border-box;
   font-family: 'Roboto Serif', serif;
-  ;
 }
 
 body {
@@ -53,3 +49,9 @@ header {
   font-size: var(--text-logo-s);
 }
 
+.links a {
+  text-decoration: none;
+  color: var(--text-color-sec);
+  font-size: var(--text-sec);
+  margin-left: 20px;
+}
