@@ -1,25 +1,55 @@
 :root {
   /* dark bg (hero, footer */
-  --head-foot-bg: #1F2937; /* info header, quote text */
+  --head-foot-bg: #1F2937;
+  /* info header, quote text */
   /* hero main text */
   --hero-ts: 48px;
-  --hero-tw: extra-bold;
-  --hero-tc: #F9FAF8; /* header logo text */
+  --hero-tw: extraBold;
+  --hero-tc: #F9FAF8;
+  /* header logo text */
   /* hero secondarytext, header links */
-  --text-sec: 18px; 
-  --text-color-sec: #E5E7EB;  /* quote section bg */
+  --text-sec: 18px;
+  --text-color-sec: #E5E7EB;
+  /* quote section bg */
   --text-logo-s: 24px;
   /* btn color, call to action bg */
   --btn-bg: #3882F6;
   /* info header text */
   --info-ts: 36px;
-  --quote-text: ligth italic;
+  --quote-text: ligthItalic;
+  /* text width on page */
+  --width-100: 100%;
+  --width: 80%;
 }
 
 * {
   box-sizing: border-box;
+  font-family: 'Roboto Serif', serif;
+  ;
+}
+
+body {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
 }
 
 header {
   background-color: var(--head-foot-bg);
+  width: var(--width-100);
 }
+
+.header-wrap {
+  width: var(--width);
+  justify-content: space-between;
+  margin: auto;
+}
+
+.header-wrap h3 {
+  color: var(--hero-tc);
+  font-size: var(--text-logo-s);
+}
+
