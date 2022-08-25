@@ -11,6 +11,7 @@
   --text-logo-s: 24px;
   /* btn color, call to action bg */
   --btn-bg: #3882F6;
+  --btn-tx: white;
   /* info header text */
   --info-ts: 36px;
   --quote-text: ligthItalic;
@@ -57,13 +58,14 @@ header, .hero{
 }
 
 .hero {
-  padding: 50px 0 50px 0;
+  padding: 100px 0 150px 0;
 }
 
 .hero__content {
   width: var(--width);
   margin: auto;
-  gap: 40px
+  gap: 40px;
+  align-items: flex-start;
 }
 
 .hero__content-text {
@@ -74,11 +76,21 @@ header, .hero{
   font-size: var(--hero-ts);
   font-weight: var(--hero-tw);
   color: var(--hero-tc);
+  margin-top: 0;
 }
 
 .hero__content-text p {
   color: var(--text-color-sec);
   font-size: var(--text-sec);
+}
+
+.hero__content-text button {
+  background-color: var(--btn-bg);
+  color: var(--btn-tx);
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
 }
 
 .hero__content .image {
@@ -87,6 +99,6 @@ header, .hero{
   background-position: center;
   background-size: cover;
   width: 50%;
-  height: 100px;
+  height: 280px;
 }
 
