@@ -86,11 +86,14 @@ header, .hero{
 }
 
 .hero__content-text button {
-  background-color: var(--btn-bg);
-  color: var(--btn-tx);
-  padding: 10px 40px;
   margin-top: 10px;
   border: none;
+}
+
+button {
+  background-color: var(--btn-bg);
+  padding: 10px 40px;
+  color: var(--btn-tx);
   border-radius: 10px;
 }
 
@@ -181,4 +184,20 @@ header, .hero{
   font-weight: var(--hero-tw);
   text-align: right;
   width: var(--width-100);
+}
+
+.action {
+  padding: 100px 0;
+}
+
+.action__wrapper {
+  margin: auto;
+  width: var(--width);
+  background-color: var(--btn-bg);
+}
+
+
+
+.action__wrapper button {
+  border: 1px solid white;
 }
