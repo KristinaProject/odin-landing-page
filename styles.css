@@ -14,7 +14,7 @@
   --btn-tx: white;
   /* info header text */
   --info-ts: 36px;
-  --quote-text: ligthItalic;
+  --quote-text: Italic;
   /* text width on page */
   --width-100: 100%;
   --width: 1000px;
@@ -153,4 +153,32 @@ header, .hero{
 
 .four {
   background-image: url('https://images.pexels.com/photos/13170472/pexels-photo-13170472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.quote {
+  background-color: var(--text-color-sec);
+  padding: 150px 0;
+}
+
+.text-wraper {
+  margin: auto;
+  width: var(--width);
+  flex-direction: column;
+}
+
+.text-wraper p {
+    color: var(--head-foot-bg);
+}
+
+.text-wraper p:first-child {
+  font-size: var(--info-ts);
+  font-style: var(--quote-text);
+  margin: 0;
+}
+
+.text-wraper p:last-child {
+  font-size: var(--text-logo-s);
+  font-weight: var(--hero-tw);
+  text-align: right;
+  width: var(--width-100);
 }
