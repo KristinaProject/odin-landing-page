@@ -106,7 +106,7 @@ header, .hero{
 .gallery {
   justify-content: center;
   flex-direction: column;
-  padding: 50px 0;
+  padding: 50px 0 100px 0;
   background-color:var(--hero-tc);
 }
 
