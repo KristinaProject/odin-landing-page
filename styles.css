@@ -246,7 +246,7 @@ footer {
   }
 
   a, p, button{
-    font-size: var(--media-xs-s);
+    font-size: var(--media-xs-s) !important;
   }
 
   .hero {
