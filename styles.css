@@ -34,15 +34,31 @@ body {
   align-items: center;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
+.center {
+  justify-content: center;
+}
+
+.padd {
+  padding: 0 20px;
+}
+
+.header-wrap, .hero__content, 
+.text-wraper, .action__wrapper {
+  max-width: var(--width);
+  width: var(--width-100);
+  margin: auto;
+}
+
 header, .hero{
   background-color: var(--head-foot-bg);
-  width: var(--width-100);
 }
 
 .header-wrap {
-  width: var(--width);
   justify-content: space-between;
-  margin: auto;
 }
 
 .header-wrap h3 {
@@ -58,12 +74,10 @@ header, .hero{
 }
 
 .hero {
-  padding: 100px 0 150px 0;
+  padding: 100px 20px 150px 20px;
 }
 
 .hero__content {
-  width: var(--width);
-  margin: auto;
   gap: 40px;
   align-items: flex-start;
 }
@@ -165,8 +179,6 @@ button {
 }
 
 .text-wraper {
-  margin: auto;
-  width: var(--width);
   flex-direction: column;
 }
 
@@ -188,12 +200,10 @@ button {
 }
 
 .action {
-  padding: 100px 0;
+  padding: 100px 20px;
 }
 
 .action__wrapper {
-  margin: auto;
-  width: var(--width);
   background-color: var(--btn-bg);
   justify-content: space-between;
   padding: 50px 100px;
