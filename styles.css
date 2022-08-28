@@ -95,6 +95,7 @@ button {
   padding: 10px 40px;
   color: var(--btn-tx);
   border-radius: 10px;
+  font-size: var(--text-sec);
 }
 
 .hero__content .image {
@@ -215,5 +216,12 @@ button {
 }
 
 .action__wrapper button {
-  border: 1px solid white;
+  border: 2px solid white;
+}
+
+footer {
+  background-color: var(--head-foot-bg);
+  color: var(--text-color-sec);
+  text-align: center;
+  padding: 30px 0;
 }
