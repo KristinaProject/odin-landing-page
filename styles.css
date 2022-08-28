@@ -245,16 +245,12 @@ footer {
     font-size: var(--text-sec) !important;
   }
 
-  a {
+  a, p, button{
     font-size: var(--media-xs-s);
   }
 
   .hero {
     padding: 0 20px 20px 20px;
-  }
-
-  p, button {
-    font-size: var(--media-xs-s) !important;
   }
 
   .hero__content {
@@ -265,7 +261,7 @@ footer {
     font-size: var(--text-logo-s) !important;
   }
   
-  .gallery {
+  .gallery, .action {
     padding: 0px;
   }
 
@@ -275,10 +271,6 @@ footer {
 
   .text-wraper p:first-child {
     font-size: var(--text-sec) !important;
-  }
-
-  .action {
-    padding: 0;
   }
 
   .action__wrapper {
