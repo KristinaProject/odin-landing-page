@@ -194,9 +194,25 @@ button {
   margin: auto;
   width: var(--width);
   background-color: var(--btn-bg);
+  justify-content: space-between;
+  padding: 50px 100px;
+  border-radius: 10px;
+  color: var(--text-color-sec);
 }
 
+.action__wrapper-text {
+  flex-basis: 75%;
+}
 
+.action__wrapper-text h4{
+  margin: 0;
+  font-size: var(--text-logo-s);
+}
+
+.action__wrapper-text p {
+  margin: 0;
+  font-size: var(--text-sec);
+}
 
 .action__wrapper button {
   border: 1px solid white;
