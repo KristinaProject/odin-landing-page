@@ -114,6 +114,7 @@ button {
   border-radius: 10px;
   font-size: var(--text-sec);
   transition: all 0.8ms;
+  cursor: pointer;
 }
 
 button:hover {
